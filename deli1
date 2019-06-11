@@ -31,7 +31,7 @@ public class Delivery {
 
         do {
             try {
-                System.out.println("1) Please enter the menu file name: ");
+                System.out.println("Enter the menu file name: ");
                 Scanner input = new Scanner(System.in);
                 File file = new File(input.nextLine());
                 input = new Scanner(file);
@@ -71,7 +71,7 @@ public class Delivery {
 
         do {
             try {
-                System.out.println("2) Please enter the order file name: ");
+                System.out.println("Enter the order file name: ");
                 Scanner input = new Scanner(System.in);
                 File file = new File(input.nextLine());
                 input = new Scanner(file);
